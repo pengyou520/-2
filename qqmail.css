@@ -1,0 +1,34 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.dibu {
+  text-align: center;
+  background-color: #d6dfea;
+  padding: 0.5em;
+  font-size: 0.8em;
+  
+}
+
+.info {
+  color: #b6b6b6;
+}
+
+a {
+  text-decoration: none;
+  color: #1d5494;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 
+  头部样式设置，头部的两个区块要左右分散
+*/
+header {
+  /* 左右布局 */
+  display: flex;
+  justify-content: space-between;
+}
