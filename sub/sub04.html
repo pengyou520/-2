@@ -86,6 +86,34 @@
     <option>泰隆</option>
     <option>辛德拉</option>
   </select>
+  <select id="year"></select>
+  <select id="month"></select>
+  <select id="day"></select>
+ <script>
+    //年份
+    let year = document.getElementById('year');
+    let now = new Date();
+    for (let i = 1960; i <= now.getFullYear(); i++) {
+      let op = document.createElement('option');
+      op.append(i + '年');
+      year.append(op);
+    }
+    year.selectedIndex = year.options.length / 2;
+    //月份
+    let month = document.getElementById('month');
+    for (let i = 1; i <= 12; i++) {
+      let op = document.createElement('option');
+      op.append(i + '日');
+      month.append(op);
+    }
+    //月份
+    let day = document.getElementById('day');
+    for (let i = 1; i <= 31; i++) {
+      let op = document.createElement('option');
+      op.append(i + '日');
+      day.append(op);
+    }
+  </script>
 
 
 </body>
