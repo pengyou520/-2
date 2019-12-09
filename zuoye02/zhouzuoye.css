@@ -1,0 +1,60 @@
+.qa {
+  display: flex;
+  justify-content: space-between;
+}
+
+.as {
+  color: #bdbdbd;
+}
+
+.ws {
+  color: #bdbdbd;
+}
+
+.za {
+  text-align: center;
+}
+
+.zc {
+  text-align: center;
+  color: #ffffff;
+}
+
+.ta {
+  background-color: black;
+  color: #ffffff;
+}
+
+.fc {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.qw {
+  display: flex;
+}
+
+.f1 {
+  flex: 0.25;
+}
+
+.f2 {
+  flex: 0.2;
+}
+
+.f3 {
+  flex: 1;
+}
+
+.f4 {
+  flex: 1;
+}
+
+.f5 {
+  flex: 3;
+}
+
+.ba {
+  text-align: center;
+}
