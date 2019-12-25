@@ -1,0 +1,47 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.aq {
+  font-size: 3.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: deepskyblue;
+}
+
+.bq {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-right: 3rem;
+  color: aqua;
+}
+
+.bg {
+  background-image: url('tu001.jpg');
+  background-size: cover;
+}
+
+.rbox {
+  position: relative;
+}
+
+.abox {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
+.za {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 7rem;
+  color: chocolate;
+}
+
+.sa {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 13rem;
+}
